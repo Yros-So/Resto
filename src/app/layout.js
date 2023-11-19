@@ -11,7 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+      {/* //Rend le header centrer atomatily on middle frontend*/}
+        <main className="max-w-6xl mx-auto p-4">
+          {children}
+        </main>
+      </body>
     </html>
   )
 }
