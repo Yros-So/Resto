@@ -7,11 +7,13 @@ export default function Hero() {
 
             <div className="py-12">
                 <h1 className="text-4xl font-semibold">
-                    EveryThing is Better with a Restaurant ! 
+                    EveryThing<br/>
+                    is Better<br/>
+                    in a&nbsp;<span className="text-primary">Restaurant Dimma !</span>  
                 </h1>
 
-                <p className="my-4 text-gray-500">
-                    Pizza is the missing piece that makes every day complete
+                <p className="my-6 text-gray-500 text-sm">
+                    Restaurant is the missing piece that makes every day complete
                     , a simgle yet delicious joy in life
                 </p>
 
@@ -28,8 +30,17 @@ export default function Hero() {
             </div>
             
 
-            <div className="relative">
-                <Image src={'/image4.jpg'} layout= {'fill'} condemod={'contain'} alt={'image4'} />
+            <div className="flex -z-10">
+                <Image src={'/image1.jpg'} layout= {'fill'} objectFit={'contain'} alt={'image1'} />
+            </div>
+
+            <div className="text-center">
+                <h3 className="uppercase text-gray-500 font-semibold leading-4">
+                    Check Out
+                </h3>
+                <h2 className="text-primary font-semibold">
+
+                </h2>
             </div>
         </section>
     )
